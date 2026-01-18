@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
-
+                                                                                        
     <!-- link style.css -->
     <link rel="stylesheet" href="css/style.css">
  </head>
@@ -37,7 +37,7 @@
     </header>
 
     <!-- hero section -->
-    <section class="pt-16 pb-16">
+    <section class="py-16">
     <div class="max-w-[1440px] rounded mx-auto p-4">
         <div class="w-full md:w-2xl mx-auto h-[450px] bg-[url('./images/banner.png')] bg-cover bg-center relative rounded-[8px]">
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold text-center mx-4 sm:mx-auto pt-5 pb-8 leading-snug sm:leading-[1.4] text-white max-w-xl md:max-w-[690px]">
@@ -49,15 +49,16 @@
         </p>
 
         <div class="flex max-w-md mx-auto mt-20">
-            <input type="text" placeholder="Search your Services" class="md:flex-1 p-2 text-[18px] rounded border border-gray-300 focus:outline-none w-[300px]">
-            <a class="bg-[#B68C5A] text-[#FFFFFF] font-medium p-4 hover:bg-gray-800 rounded-r-[8px]" href="#">Search</a>
+            <input type="text" placeholder="Search your Services" class="w-full md:flex-1 p-3 text-[18px] rounded-l border border-gray-300 focus:outline-none">
+
+            <button class="bg-[#B68C5A] text-white font-medium px-5 py-3 hover:bg-gray-800 rounded-r">">Search</button>
         </div>
         </div>
     </div>
     </section>
 
     <!--  cards section-->
-    <section class="pt-16 pb-16">
+    <section class="py-16">
         <div class="max-w-[1440px] mx-auto">
             <div class="cards-title">
                 <h2 class="text-3xl text-center text-[#414040] font-bold p-4 sm:text-4xl sm:text-5xl">The Legal Practice Area</h2>
@@ -106,10 +107,22 @@
     </section>
 
     <!-- client section -->
-     <!-- contact section -->
-<section class="py-16">
+     <section class="py-16">
+        <div class="max-w-[1440px] mx-auto p-3">
+            <div class="text-center text-white w-full md:w-2xl mx-auto h-[350px] bg-[url('./images/banner.png')] bg-cover bg-center relative rounded-[8px] py-10 opacity-50">
+                <img class="flex mx-auto p-5" src="images/avatar-1.png" alt="avatar-1">
+                <h4 class="text-2xl mx-auto">Awlad Hossain</h4>
+                <p class="text-xl mx-auto pb-10">UIX Designer</p>
+                <p class="text-w-[16px] max-w-[900px] mx-auto px-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+            </div>
+        </div>
+     </section>
+
+
+    <!--question section  -->
+    <section class="pb-16 ">
   <div class="max-w-[1440px] mx-auto px-[15px] py-16">
-    <h2 class="text-4xl text-center text-[#414040] py-2.5">Contact With Us</h2>
+    <h2 class="text-4xl text-center text-[#414040] py-2.5">Frequently Asked Any Questions</h2>
     <p class="text-[18px] text-[#707070] text-center max-w-[714px] mx-auto pt-4 pb-7">
       There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
     </p>
@@ -159,5 +172,47 @@
     </section>
 
 
+    <!-- footer section -->
+     <footer class="py-16 bg-[#111111]">
+        <div class="max-w-[1440px] mx-auto p-3">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <!-- items 1 -->
+                <div>
+                    <img class="pb-5" src="images/logo.png" alt="logo2">
+                    <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+                <!-- items 2 -->
+                <div class="text-white">
+                    <h4 class="uppercase tracking-wide font-semibold text-lg pb-4">Use full Link</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About Us</a></li>
+                        <li><a href="/">Cases</a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- items 3 -->
+                <div class="text-white">
+                    <h4 class="uppercase tracking-wide font-semibold text-lg pb-4">Contact Now</h4>
+                    <p>555 4th 5t NW, WashingtonDC 20530, United States</p>
+                    <p>+88 01750 000 000 +88 01750 000 000</p>
+                    <p>info@gmail.com info@gmail.com</p>
+                </div>
+                <!-- items 5 -->
+                <div class="text-white">
+                    <h4 class="uppercase tracking-wide font-semibold text-lg pb-4">Subscribe</h4>
+                    <p class="">Subscribe for our latest & Articles. We Wot Give You Spam Mails</p>
+
+                   <div class="flex items-stretch mt-5">
+                        <input class="p-3 rounded-l w-full text-black" type="email" placeholder="Email Address">
+                        <button class="bg-[#B68C5A] text-white px-5 rounded-r hover:bg-orange-400">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
  </body>
  </html>
